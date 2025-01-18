@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjana S Pillai - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #1a202c;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        header p {
+            margin: 10px 0 20px;
+            font-size: 1.2rem;
+        }
+        
+        nav {
+            margin-top: 15px;
+        }
+        
+        nav a {
+            color: #edf2f7;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #4a5568;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            display: inline-block;
+        }
+        
+        nav a:hover {
+            background-color: #38b2ac;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .container {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #2d3748;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background-color: #38b2ac;
+            border-radius: 2px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        
+        ul li strong {
+            color: #2d3748;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a202c;
+            color: white;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        footer a {
+            color: #38b2ac;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .highlight {
+            background-color: #e6fffa;
+            padding: 15px;
+            border-left: 6px solid #38b2ac;
+            border-radius: 5px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        a {
+            word-break: break-word;
+        }
+        
+        .project-card {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skills span {
+            background-color: #38b2ac;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sanjana S Pillai</h1>
+        <p>Phone: 8667320813 | Email: <a href="mailto:sanjana.s.pillai2023ai-ds@sece.ac.in"> sanjana.s.pillai2023ai-ds@sece.ac.in</a></p>
+        <nav>
+            <a href="https://github.com/Sanj5">GitHub</a>
+            <a href="https://gitlab.com">GitLab</a>
+            <a href="https://linkedin.com/in/sanjana-s-pillai">LinkedIn</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I am a passionate and ambitious B.Tech student specializing in Artificial Intelligence and Data Science. With a keen interest in solving real-world problems, I thrive on creating innovative applications that blend technology and creativity.
+                Sharing knowledge is at the core of my values, and I am driven by the goal of using technology to make a meaningful impact on society. My academic journey and hands-on project experiences have equipped me with the skills to tackle challenges,
+                learn continuously, and contribute effectively to any team or initiative.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li class="highlight">B.Tech (AI & DS) – Sri Eshwar College of Engineering | CGPA: 8.4 (sem 2) | 2023–2027</li>
+                <li>HSC – Kendriya Vidyalaya Wellington | 93.8% | 2021–2023</li>
+                <li>SSLC – Holy Innocents School and Junior College | 92.5% | 2020–2021</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>Python</span>
+                <span>Flutter</span>
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>C</span>
+                <span>Data Analysis</span>
+                <span>Natural Language Processing</span>
+                <span>Git/GitHub</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li class="project-card">
+                    <strong>Online Voting System</strong> - <a href="https://github.com/Sanj5/Online-Voting-Application-using-C.git">GitHub</a><br> Designed a secure and efficient console-based voting system.
+                    <br><strong>Tech Stack:</strong> C
+                </li>
+                <li class="project-card">
+                    <strong>Resume Scoring using NLP</strong> - <a href="https://github.com/Sanj5/Resume-Scoring-using-NLP.git">GitHub</a><br> NLP-based system to score resumes for job relevance.
+                    <br><strong>Tech Stack:</strong> Python, Streamlit, NLTK
+                </li>
+                <li class="project-card">
+                    <strong>Thunai</strong> - <a href="https://github.com/DemonGaming000/THUNAI">GitHub</a><br> Mentorship app for personalized guidance and progress tracking.
+                    <br><strong>Tech Stack:</strong> Flutter, Python, REST API
+                </li>
+                <li class="project-card">
+                    <strong>Text Summarizer</strong> - <a href="https://github.com/Sanj5/Text-Summarizer.git">GitHub</a><br> Developed using advanced NLP techniques and transformers.
+                    <br><strong>Tech Stack:</strong> Python, SpaCy, Transformers, scikit-learn
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to reach out via email or connect with me on LinkedIn for collaboration opportunities.</p>
+        </section>
+    </div>
+    <footer>
+        <a href="https://github.com/Sanj5">GitHub</a> |
+        <a href="https://linkedin.com/in/sanjana-s-pillai">LinkedIn</a>
+    </footer>
+</body>
+
+</html>
